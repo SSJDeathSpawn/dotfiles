@@ -1,0 +1,6 @@
+[Added Associations]
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=firefox.desktop;
+
+[Default Applications]
+inode/directory=pcmanfm.desktop
+application/pdf=mupdf.desktop
