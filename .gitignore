@@ -15,4 +15,8 @@ mpv/
 neofetch/
 pdfcpu/
 pipewire/
-nvim/
+transmission/
+htop/
+QtProject.conf
+cef_user_data/
+packer_compiled.lua

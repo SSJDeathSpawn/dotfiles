@@ -4,3 +4,5 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.document=firefox.
 [Default Applications]
 inode/directory=pcmanfm.desktop
 application/pdf=mupdf.desktop
+x-scheme-handler/quaver=Quaver-scheme-handler.desktop
+x-scheme-handler/discord-376180410490552320=discord-376180410490552320.desktop
