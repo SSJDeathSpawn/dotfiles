@@ -7,4 +7,6 @@ killall -q polybar
 while pgrep -x polybar >/dev/null; do sleep 1; done
 
 #Launch polybar
-polybar mybar 2>/tmp/polybar.log &
+polybar mybar 2>/tmp/polybartop.log &
+polybar bottombar 2>/tmp/polybarbot.log &
+
