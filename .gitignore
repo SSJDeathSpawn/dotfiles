@@ -19,4 +19,19 @@ transmission/
 htop/
 QtProject.conf
 cef_user_data/
+GitForUnity/
+Mousepad/
+Code - OSS/
+GitForUnity/
+unity3d/
+unityhub/
+font-manager/
+bitburner/
+chromium/
+lxsession/
+obs-studio/
+kitenrc
+kitenradselectrc
+klettresrc
+ktouch2rc
 packer_compiled.lua
