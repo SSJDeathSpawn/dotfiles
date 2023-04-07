@@ -1,6 +1,9 @@
 [Added Associations]
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=firefox.desktop;
+<<<<<<< Updated upstream
+=======
 text/plain=nvim.desktop;
+>>>>>>> Stashed changes
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
 x-scheme-handler/chrome=firefox.desktop;
@@ -17,7 +20,10 @@ inode/directory=pcmanfm.desktop
 application/pdf=mupdf.desktop
 x-scheme-handler/quaver=Quaver-scheme-handler.desktop
 x-scheme-handler/discord-376180410490552320=discord-376180410490552320.desktop
+<<<<<<< Updated upstream
+=======
 text/plain=nvim.desktop
+>>>>>>> Stashed changes
 x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
 x-scheme-handler/chrome=firefox.desktop

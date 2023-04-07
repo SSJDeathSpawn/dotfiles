@@ -12,6 +12,9 @@ return {
       require "plugins.configs.lspconfig"
       require "custom.plugins.lspconfig"
     end,
+<<<<<<< Updated upstream
+    },
+=======
   },
 
   ["nvim-telescope/telescope.nvim"] = {
@@ -24,4 +27,5 @@ return {
     lazy = false
   },
 
+>>>>>>> Stashed changes
 }

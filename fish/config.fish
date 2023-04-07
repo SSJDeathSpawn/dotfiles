@@ -1,4 +1,5 @@
 fish_ssh_agent
+set -gx GPG_TTY (tty)
 # Kitty
 kitty + complete setup fish | source
 
@@ -16,9 +17,9 @@ alias l='ll'
 alias la='ll -A'
 alias lsd='tree -dL 2'
 alias x='exit'
-alias mv='mv -iv'
-alias rm='rm -i'
-alias cp='cp -i'
+alias mv='mv -v'
+alias rm='rm'
+alias cp='cp'
 alias grep='grep -s --color=auto --exclude-dir=\.svn --exclude-dir=\.git'
 alias vi='nvim'
 alias pbcopy='xclip -selection clipboard'

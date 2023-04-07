@@ -56,11 +56,11 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
 # Use brightnessctl to control the brightness
-bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set 5%+
-bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set 2%+
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 2%-
 
 # Use playerctl to control the currently playing music
-bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
+bindsym XF86AudioPlay exec --no-startup-id mocp --toggle-pause
 
 #Input setup
 exec xinput set-prop "PNP0C50:00 04F3:30AA Touchpad" "libinput Tapping Enabled" 1
