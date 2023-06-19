@@ -60,11 +60,11 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set 2%+
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 2%-
 
 # Use playerctl to control the currently playing music
-bindsym XF86AudioPlay exec --no-startup-id mocp --toggle-pause
+bindsym XF86AudioPlay exec --no-startup-id mocp --toggle-pause; exec --no-startup-id playerctl play-pause
 
 #Input setup
-exec xinput set-prop "PNP0C50:00 04F3:30AA Touchpad" "libinput Tapping Enabled" 1
-exec xinput set-prop "PNP0C50:00 04F3:30AA Touchpad" "libinput Natural Scrolling Enabled" 1
+exec_always xinput set-prop "PNP0C50:00 04F3:30AA Touchpad" "libinput Tapping Enabled" 1
+exec_always xinput set-prop "PNP0C50:00 04F3:30AA Touchpad" "libinput Natural Scrolling Enabled" 1
 
 # use Mouse+Mod4 to drag floating windows to their wanted position
 floating_modifier Mod4

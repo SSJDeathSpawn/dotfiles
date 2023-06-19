@@ -11,10 +11,11 @@ application/x-extension-shtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
+application/pdf=calibre-gui.desktop;
 
 [Default Applications]
 inode/directory=pcmanfm.desktop
-application/pdf=mupdf.desktop
+application/pdf=calibre-gui.desktop
 x-scheme-handler/quaver=Quaver-scheme-handler.desktop
 x-scheme-handler/discord-376180410490552320=discord-376180410490552320.desktop
 text/plain=nvim.desktop
@@ -28,3 +29,4 @@ application/x-extension-shtml=firefox.desktop
 application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
+x-scheme-handler/discord-1080457485489545287=discord-1080457485489545287.desktop
