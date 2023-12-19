@@ -73,7 +73,10 @@ floating_modifier Mod4
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
+exec_always --no-startup-id ~/.config/conky/Mimosa/start.sh
+exec_always --no-startup-id glava --desktop &
 exec_always --no-startup-id ~/.config/i3/polybar.sh &
+exec_always --no-startup-id fcitx5 &
 
 # start a terminal
 bindsym Mod4+Return exec i3-sensible-terminal
@@ -92,6 +95,7 @@ bindsym Print exec flameshot gui
 
 # start dmenu (a program launcher)
 bindsym Mod4+d exec --no-startup-id "rofi -modi drun,run -show drun"
+bindsym Mod4+shift+p exec --no-startup-id "~/.config/scripts/projects.nu"
 bindsym Mod4+Shift+d exec --no-startup-id "rofi -show drun -run-command 'pkexec {cmd}'"
 # A more modern dmenu replacement is rofi:
 # bindsym Mod4+d exec "rofi -modi drun,run -show drun"
@@ -197,7 +201,7 @@ bindsym Mod4+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym Mod4+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym Mod4+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym Mod4+Shift+e exec "rofi -show p -modi p:rofi-power-menu"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

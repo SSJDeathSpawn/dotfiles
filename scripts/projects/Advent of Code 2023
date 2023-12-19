@@ -1,0 +1,4 @@
+layout fat:bias=80
+cd /files/Programming/Practice/Rust/aoc_2023  
+launch nu 
+launch nu 

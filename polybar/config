@@ -210,13 +210,13 @@ label-foreground = ${colors.primary}
 [module/battery]
 type = internal/battery
 
-full-at = 70
+full-at = 80
 low-at = 20
 
 battery = BAT1
 adapter = ADP1
 
-poll-interval = 5
+poll-interval = 2
 format-charging = <animation-charging> <label-charging>
 format-discharging = <ramp-capacity> <label-discharging>  
 format-low = <label-low> <animation-low>

@@ -1,0 +1,2 @@
+cd ~/.config/nvim/
+launch nu -c "nvim init.lua"

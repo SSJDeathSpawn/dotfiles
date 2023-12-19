@@ -1,0 +1,38 @@
+Changelog
+------------------------------
+Mimosa Dark - Conky Theme
+[ Leonis Themes Pack ] 
+
+by Closebox73
+------------------------------
+
+v1.0
+date : 30 Jul 2022
+-	Initial release
+
+
+v1.1
+date : 14 Aug 2022
+-	Add Light Version
+
+
+v1.5
+date : 02 Oct 2022
+-	Add override_utf8_locale line
+-	A few changes to the script
+-	Minimize archive size
+
+
+v1.7
+date : 27 Nov 2022
+-	Add 5 preset colors variants
+
+
+v2.3
+date : 22 Feb 2023
+-	New weather.sh
+-	Add License
+-	Add Changelog file
+-	A few changes to the script
+-	Add Playerctl version
+-	Add Fahrenheit version

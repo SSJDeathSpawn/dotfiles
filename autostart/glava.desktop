@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=sh "/home/atomicstring/.config/glava/start.sh"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_IN]=Glava
+Name=Glava
+Comment[en_IN]=
+Comment=

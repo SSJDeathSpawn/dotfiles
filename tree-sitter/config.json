@@ -1,0 +1,56 @@
+{
+  "parser-directories": [
+    "/home/atomicstring/github",
+    "/home/atomicstring/src",
+    "/home/atomicstring/source"
+  ],
+  "theme": {
+    "constructor": 136,
+    "constant.builtin": {
+      "bold": true,
+      "color": 94
+    },
+    "comment": {
+      "color": 245,
+      "italic": true
+    },
+    "function": 26,
+    "module": 136,
+    "keyword": 56,
+    "property": 124,
+    "operator": {
+      "color": 239,
+      "bold": true
+    },
+    "constant": 94,
+    "punctuation.bracket": 239,
+    "punctuation.delimiter": 239,
+    "string.special": 30,
+    "type.builtin": {
+      "color": 23,
+      "bold": true
+    },
+    "embedded": null,
+    "string": 28,
+    "tag": 18,
+    "variable.builtin": {
+      "bold": true
+    },
+    "function.builtin": {
+      "bold": true,
+      "color": 26
+    },
+    "type": 23,
+    "variable.parameter": {
+      "underline": true
+    },
+    "attribute": {
+      "color": 124,
+      "italic": true
+    },
+    "number": {
+      "color": 94,
+      "bold": true
+    }
+  }
+}
