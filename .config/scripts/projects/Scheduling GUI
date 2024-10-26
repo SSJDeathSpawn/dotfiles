@@ -1,0 +1,4 @@
+layout fat:bias=70
+cd /files/Programming/Projects/scheduling-gui
+launch bash -c "nvim src-tauri/src/main.rs"
+launch bash

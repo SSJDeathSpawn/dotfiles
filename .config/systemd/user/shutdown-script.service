@@ -1,0 +1,15 @@
+[Unit]
+Description=This service calls shutdown_script.sh upon shutdown or reboot.
+DefaultDependencies=no
+Requires=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStop=/usr/bin/logger 'Starting sync process'
+ExecStop=/home/atomicstring/.local/scripts/shutdown_script.sh
+TimeoutStopSec=300
+
+[Install]
+WantedBy=default.target

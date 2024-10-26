@@ -1,0 +1,4 @@
+layout fat:bias=70
+cd /files/Teams/Nexalys/Pageturner
+launch bash -c "nvim src-tauri/src/main.rs"
+launch bash

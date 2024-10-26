@@ -1,0 +1,4 @@
+layout fat:bias=70
+cd /files/Programming/Projects/lovenet_prototype
+launch bash -c "nvim game/src/main.rs"
+launch bash

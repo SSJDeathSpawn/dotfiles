@@ -1,0 +1,4 @@
+layout tall:bias=70
+cd /files/Programming/Projects/renpy-lsp-server
+launch bash -c "nvim src/main.rs"
+launch bash 
