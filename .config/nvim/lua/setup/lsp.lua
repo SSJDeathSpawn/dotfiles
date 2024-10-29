@@ -3,6 +3,7 @@ return {
         -- LSP Configuration & Plugins
         'neovim/nvim-lspconfig',
         config = function()
+            require 'config.lsp'
             require 'config.lsp.custom_lspconfig'
             require 'config.lsp.lspconfig'
             require 'config.lsp.autoformat'

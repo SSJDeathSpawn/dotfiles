@@ -9,6 +9,11 @@ vim.o.shell = '/bin/bash'
 -- For Material Theme to be palenight
 vim.g.material_style = "deep ocean"
 
+-- Default spacing
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+vim.opt.expandtab = false
+
 -- For nvim.tree
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
