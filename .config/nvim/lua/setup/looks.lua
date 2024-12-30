@@ -137,6 +137,11 @@ return {
 
 
             nvim_tree.setup {
+                actions = {
+                    open_file = {
+                        quit_on_open = true
+                    },
+                },
                 update_focused_file = {
                     enable = true,
                     update_cwd = true,
@@ -196,5 +201,11 @@ return {
                 css = { css = true, },
             }, { mode = 'background', names = true })
         end
+    },
+
+    {
+        "folke/todo-comments.nvim",
+        dependencies = { "nvim-lua/plenary.nvim" },
+        opts = {}
     }
 }

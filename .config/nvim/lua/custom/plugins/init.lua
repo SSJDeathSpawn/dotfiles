@@ -29,4 +29,7 @@ return {
       { "<leader>vs", "<cmd>LoveStop<cr>", desc = "Stop LÖVE" },
     },
   },
+  {
+    'ron-rs/ron.vim'
+  }
 }

@@ -1,0 +1,4 @@
+layout fat:bias=70
+cd /files/Programming/Projects/render-engine
+launch bash -c "nvim src/main.rs"
+launch bash

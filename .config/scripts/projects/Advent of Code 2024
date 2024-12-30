@@ -1,0 +1,4 @@
+layout fat:bias=70
+cd /files/Programming/Projects/aoc_2024
+launch bash 
+launch bash

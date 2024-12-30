@@ -122,6 +122,7 @@ source "$OSH"/oh-my-bash.sh
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
+
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
@@ -163,3 +164,8 @@ function cfile() {
 }
 
 alias copy="xclip -selection clipboard"
+
+alias git-commit-mark="git commit -m \"From Linux: $(date '+%a, %b %d %Y %T')\""
+
+export MANPAGER='nvim +Man!'
+source /usr/share/nvm/init-nvm.sh

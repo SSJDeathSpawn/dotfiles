@@ -1,2 +1,2 @@
-cd ~/.config/nvim/
+cd ~/dotfiles/.config/nvim/
 launch bash -c "nvim init.lua"
